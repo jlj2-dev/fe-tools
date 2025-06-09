@@ -1,0 +1,22 @@
+.app-title {
+    width: 100vw;
+    color: white;
+    background-color: #17360b;
+    font-family: var(--main-font);
+    font-size: 24px;
+    font-weight: 700;
+    padding: 24px 16px 8px 16px;
+    display: flex;
+}
+
+.app-body {
+    margin-top: 24px;
+    align-content: flex-start;
+}
+
+.input-row {
+    margin-top: 16px;
+    label {
+        margin-right: 32px;
+    }
+}
