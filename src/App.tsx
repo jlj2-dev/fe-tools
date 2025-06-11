@@ -3,6 +3,7 @@ import { useEffect } from 'react'
 import { Route, Switch } from 'wouter'
 import { Jlj2DevTheme } from './constants/enums/jlj2-dev-theme.ts'
 import { AboutPage } from './routes/about/about.tsx'
+import { Base64EncoderPage } from './routes/base-64-encoder.tsx'
 import { ViteDemoPage } from './routes/vite-demo-page.tsx'
 import { themeState } from './state/theme.ts'
 import { adjustTheme } from './utils/adjust-theme.ts'
@@ -30,6 +31,9 @@ function App() {
     <Switch>
       <Route path="/vite-demo">
         <ViteDemoPage />
+      </Route>
+      <Route path="/base-64">
+        <Base64EncoderPage />
       </Route>
       <Route>
         <AboutPage />

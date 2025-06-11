@@ -1,0 +1,21 @@
+.app-title-bar {
+    width: 100vw;
+    color: var(--title-text);
+    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: row;
+    padding: 24px 16px 8px 16px;
+}
+
+.app-title {
+    font-family: var(--main-font);
+    font-size: 24px;
+    font-weight: 700;
+    flex: 1;
+    text-align: left;
+}
+
+.menu-icon {
+    position: relative;
+    left: -32px;
+}
