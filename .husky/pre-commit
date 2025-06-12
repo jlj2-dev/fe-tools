@@ -1,1 +1,1 @@
-pnpm check-format && pnpm lint
+pnpm check-format && pnpm lint && pnpm check-styles

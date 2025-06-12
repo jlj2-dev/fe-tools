@@ -10,7 +10,7 @@
   background-color: var(--primary-color);
   display: flex;
   flex-direction: row;
-  padding: 24px 16px 8px 16px;
+  padding: 24px 16px 8px;
 }
 
 .app-title {

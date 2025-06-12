@@ -6,9 +6,11 @@
   will-change: filter;
   transition: filter 300ms;
 }
+
 .logo:hover {
   filter: drop-shadow(0 0 2em var(--highlights));
 }
+
 .logo.react:hover {
   filter: drop-shadow(0 0 2em var(--border-color));
 }
@@ -17,6 +19,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
