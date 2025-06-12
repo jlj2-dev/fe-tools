@@ -14,7 +14,9 @@ function App() {
   const [theme, setTheme] = useAtom(themeState)
 
   useEffect(() => {
-    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches
+    const prefersDark = window.matchMedia(
+      '(prefers-color-scheme: dark)',
+    ).matches
     if (prefersDark) {
       setTheme(Jlj2DevTheme.DARK)
     } else {

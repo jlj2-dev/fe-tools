@@ -1,11 +1,11 @@
 .app-body {
-    margin-top: 24px;
-    align-content: flex-start;
+  margin-top: 24px;
+  align-content: flex-start;
 }
 
 .input-row {
-    margin-top: 16px;
-    label {
-        margin-right: 32px;
-    }
+  margin-top: 16px;
+  label {
+    margin-right: 32px;
+  }
 }

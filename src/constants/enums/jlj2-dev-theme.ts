@@ -1,4 +1,4 @@
 export enum Jlj2DevTheme {
-    "LIGHT" = 'light',
-    "DARK" = 'dark'
+  'LIGHT' = 'light',
+  'DARK' = 'dark',
 }
