@@ -1,3 +1,9 @@
+.logo {
+    position: relative;
+    top: -14px;
+    height: 48px;
+}
+
 .app-title-bar {
     width: 100vw;
     color: var(--title-text);

@@ -5,7 +5,7 @@ import { useLocation } from "wouter"
 import { Jlj2DevTheme } from '../../constants/enums/jlj2-dev-theme.ts'
 import { themeState } from "../../state/theme.ts"
 
-import logo from '/logo-no-text.png'
+import logo from '/jlj-squared-logo.png'
 import './title-bar.css'
 
 export const TitleBar = ({title}: {title: string}) => {
